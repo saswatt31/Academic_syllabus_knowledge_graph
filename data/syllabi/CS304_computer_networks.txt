@@ -1,0 +1,28 @@
+CS304 Computer Networks — Course Syllabus
+
+Instructor: Dr. K. Das
+Credits: 3
+Semester: Autumn 2026
+
+Course Description:
+Computer network architecture and protocols. Layered models, TCP/IP, routing,
+transport protocols and network security basics.
+
+Prerequisites:
+Prerequisite: CS303 Operating Systems.
+
+Topics Covered:
+- Week 1: Network architecture and layered models (OSI, TCP/IP)
+- Week 2: Physical layer and data link protocols
+- Week 3: MAC protocols and Ethernet
+- Week 4: IP addressing and subnetting
+- Week 5: Routing algorithms (distance vector, link state)
+- Week 6: Transport layer, UDP and TCP congestion control
+- Week 7: Application layer: DNS, HTTP, email
+- Week 8: Network security: cryptography basics, firewalls
+
+Learning Outcomes:
+LO1. Describe the OSI and TCP/IP layering.
+LO2. Compute subnet masks and address allocations.
+LO3. Compare routing algorithms.
+LO4. Explain TCP congestion control mechanisms.

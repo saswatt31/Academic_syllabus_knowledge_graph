@@ -1,0 +1,3131 @@
+{
+ "meta": {
+  "nodes": 148,
+  "edges": 177,
+  "entities": 182,
+  "relations": 177,
+  "courses": 9,
+  "docs": 6
+ },
+ "courses": [
+  "CS101 Introduction to Programming",
+  "CS201 Data Structures & Algorithms",
+  "CS301 Machine Learning",
+  "CS302 Database Systems",
+  "CS303 Operating Systems",
+  "CS304 Computer Networks",
+  "CS305 Web Technologies",
+  "CS306 Linear Algebra",
+  "MA202 Probability & Statistics"
+ ],
+ "courseColors": {
+  "CS101 Introduction to Programming": "#2563EB",
+  "CS201 Data Structures & Algorithms": "#7C3AED",
+  "CS301 Machine Learning": "#0D9488",
+  "CS302 Database Systems": "#D97706",
+  "CS303 Operating Systems": "#DC2626",
+  "CS304 Computer Networks": "#4F46E5",
+  "CS305 Web Technologies": "#059669",
+  "CS306 Linear Algebra": "#2563EB",
+  "MA202 Probability & Statistics": "#7C3AED"
+ },
+ "courseMeta": {
+  "CS201 Data Structures & Algorithms": {
+   "code": "CS201",
+   "instructor": "Prof. S. Menon",
+   "credits": 4,
+   "topics": [
+    "Heaps and priority queues",
+    "minimum spanning trees",
+    "Graph representations",
+    "binary search trees",
+    "dynamic programming",
+    "complexity analysis",
+    "Sorting algorithms",
+    "Stacks and queues",
+    "NP-completeness",
+    "Shortest paths",
+    "greedy methods",
+    "linked lists",
+    "Hash tables",
+    "hashing",
+    "Arrays",
+    "BFS",
+    "DFS"
+   ],
+   "outcomes": [
+    "LO1. Implement core data structures from scratch.",
+    "LO2. Analyze time and space complexity of algorithms.",
+    "LO3. Choose appropriate data structures for a given problem.",
+    "LO4. Apply dynamic programming to optimization problems."
+   ]
+  },
+  "CS301 Machine Learning": {
+   "code": "CS301",
+   "instructor": "Dr. R. Iyer",
+   "credits": 4,
+   "topics": [
+    "Principal component analysis",
+    "support vector machines",
+    "hierarchical clustering",
+    "bias-variance tradeoff",
+    "classification metrics",
+    "Logistic regression",
+    "k-means clustering",
+    "Linear regression",
+    "gradient descent",
+    "cross-validation",
+    "Machine Learning",
+    "neural networks",
+    "backpropagation",
+    "decision trees",
+    "random forests",
+    "unsupervised",
+    "supervised",
+    "clustering"
+   ],
+   "outcomes": [
+    "LO1. Formulate a prediction problem as regression or classification.",
+    "LO2. Implement gradient descent for linear models.",
+    "LO3. Train and tune support vector machines and decision trees.",
+    "LO4. Apply k-means clustering to segment datasets.",
+    "LO5. Evaluate models using accuracy, precision, recall and ROC curves."
+   ]
+  },
+  "CS302 Database Systems": {
+   "code": "CS302",
+   "instructor": "Dr. A. Kulkarni",
+   "credits": 3,
+   "topics": [
+    "Entity-relationship modelling",
+    "functional dependencies",
+    "Concurrency control",
+    "relational algebra",
+    "Relational model",
+    "ACID properties",
+    "document stores",
+    "normalization",
+    "transactions",
+    "SQL queries",
+    "indexing",
+    "B-trees",
+    "NoSQL"
+   ],
+   "outcomes": [
+    "LO1. Design normalized relational schemas from requirements.",
+    "LO2. Write complex SQL queries with joins and aggregation.",
+    "LO3. Explain transaction properties and concurrency control.",
+    "LO4. Compare relational and NoSQL storage models."
+   ]
+  },
+  "CS303 Operating Systems": {
+   "code": "CS303",
+   "instructor": "Prof. M. Bhat",
+   "credits": 4,
+   "topics": [
+    "Operating system concepts",
+    "Process synchronization",
+    "Processes and threads",
+    "distributed systems",
+    "Memory management",
+    "page replacement",
+    "CPU scheduling",
+    "virtual memory",
+    "system calls",
+    "file systems",
+    "semaphores",
+    "Deadlocks"
+   ],
+   "outcomes": [
+    "LO1. Explain process states and scheduling policies.",
+    "LO2. Solve synchronization problems using semaphores.",
+    "LO3. Analyze page replacement algorithms.",
+    "LO4. Describe file system implementation."
+   ]
+  },
+  "CS304 Computer Networks": {
+   "code": "CS304",
+   "instructor": "Dr. K. Das",
+   "credits": 3,
+   "topics": [
+    "TCP congestion control",
+    "network architecture",
+    "data link protocols",
+    "cryptography basics",
+    "Routing algorithms",
+    "distance vector",
+    "Layered models",
+    "MAC protocols",
+    "IP addressing",
+    "subnet masks",
+    "subnetting",
+    "link state",
+    "firewalls",
+    "Ethernet",
+    "TCP/IP",
+    "HTTP",
+    "UDP",
+    "DNS",
+    "OSI"
+   ],
+   "outcomes": [
+    "LO1. Describe the OSI and TCP/IP layering.",
+    "LO2. Compute subnet masks and address allocations.",
+    "LO3. Compare routing algorithms.",
+    "LO4. Explain TCP congestion control mechanisms."
+   ]
+  },
+  "CS305 Web Technologies": {
+   "code": "CS305",
+   "instructor": "Prof. N. Sharma",
+   "credits": 3,
+   "topics": [
+    "Web performance",
+    "Authentication",
+    "CSS layout",
+    "JavaScript",
+    "REST API",
+    "sessions",
+    "flexbox",
+    "caching",
+    "React",
+    "HTTP",
+    "HTML",
+    "grid",
+    "DOM"
+   ],
+   "outcomes": [
+    "LO1. Build responsive web pages with HTML and CSS.",
+    "LO2. Program interactive frontends in JavaScript.",
+    "LO3. Design and consume REST APIs.",
+    "LO4. Integrate a relational database into a web application."
+   ]
+  }
+ },
+ "nodes": [
+  {
+   "id": "CS201 Data Structures & Algorithms",
+   "label": "CS201 Data Structures & Algorithms",
+   "type": "COURSE",
+   "code": "CS201",
+   "out": 32,
+   "in": 1
+  },
+  {
+   "id": "Prof. S. Menon",
+   "label": "Prof. S. Menon",
+   "type": "INSTRUCTOR",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "4",
+   "label": "4",
+   "type": "CREDITS",
+   "code": null,
+   "out": 0,
+   "in": 3
+  },
+  {
+   "id": "CS101 Introduction to Programming",
+   "label": "CS101 Introduction to Programming",
+   "type": "PREREQUISITE",
+   "code": "CS101",
+   "out": 2,
+   "in": 0
+  },
+  {
+   "id": "Heaps and priority queues",
+   "label": "Heaps and priority queues",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "minimum spanning trees",
+   "label": "minimum spanning trees",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Graph representations",
+   "label": "Graph representations",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "binary search trees",
+   "label": "binary search trees",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "dynamic programming",
+   "label": "dynamic programming",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "Dynamic programming",
+   "label": "Dynamic programming",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "complexity analysis",
+   "label": "complexity analysis",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Complexity analysis",
+   "label": "Complexity analysis",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Sorting algorithms",
+   "label": "Sorting algorithms",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Stacks and queues",
+   "label": "Stacks and queues",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "NP-completeness",
+   "label": "NP-completeness",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Shortest paths",
+   "label": "Shortest paths",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "greedy methods",
+   "label": "greedy methods",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "linked lists",
+   "label": "linked lists",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "Hash tables",
+   "label": "Hash tables",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "hashing",
+   "label": "hashing",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "Arrays",
+   "label": "Arrays",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "BFS",
+   "label": "BFS",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "DFS",
+   "label": "DFS",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO1. Implement core data structures from scratch.",
+   "label": "LO1. Implement core data structures from scratch.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO2. Analyze time and space complexity of algorithms.",
+   "label": "LO2. Analyze time and space complexity of algorithms.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO3. Choose appropriate data structures for a given problem.",
+   "label": "LO3. Choose appropriate data structures for a given problem.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO4. Apply dynamic programming to optimization problems.",
+   "label": "LO4. Apply dynamic programming to optimization problems.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "CS301 Machine Learning",
+   "label": "CS301 Machine Learning",
+   "type": "COURSE",
+   "code": "CS301",
+   "out": 34,
+   "in": 3
+  },
+  {
+   "id": "Dr. R. Iyer",
+   "label": "Dr. R. Iyer",
+   "type": "INSTRUCTOR",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "CS306 Linear Algebra",
+   "label": "CS306 Linear Algebra",
+   "type": "PREREQUISITE",
+   "code": "CS306",
+   "out": 1,
+   "in": 0
+  },
+  {
+   "id": "MA202 Probability & Statistics",
+   "label": "MA202 Probability & Statistics",
+   "type": "PREREQUISITE",
+   "code": "MA202",
+   "out": 1,
+   "in": 0
+  },
+  {
+   "id": "Principal component analysis",
+   "label": "Principal component analysis",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "support vector machines",
+   "label": "support vector machines",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "Support vector machines",
+   "label": "Support vector machines",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "hierarchical clustering",
+   "label": "hierarchical clustering",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "bias-variance tradeoff",
+   "label": "bias-variance tradeoff",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "classification metrics",
+   "label": "classification metrics",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Logistic regression",
+   "label": "Logistic regression",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "k-means clustering",
+   "label": "k-means clustering",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "Linear regression",
+   "label": "Linear regression",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "gradient descent",
+   "label": "gradient descent",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "cross-validation",
+   "label": "cross-validation",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Machine Learning",
+   "label": "Machine Learning",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "machine learning",
+   "label": "machine learning",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "neural networks",
+   "label": "neural networks",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Neural networks",
+   "label": "Neural networks",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "backpropagation",
+   "label": "backpropagation",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "decision trees",
+   "label": "decision trees",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "Decision trees",
+   "label": "Decision trees",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "random forests",
+   "label": "random forests",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "unsupervised",
+   "label": "unsupervised",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "supervised",
+   "label": "supervised",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "clustering",
+   "label": "clustering",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO1. Formulate a prediction problem as regression or classification.",
+   "label": "LO1. Formulate a prediction problem as regression or classification.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO2. Implement gradient descent for linear models.",
+   "label": "LO2. Implement gradient descent for linear models.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO3. Train and tune support vector machines and decision trees.",
+   "label": "LO3. Train and tune support vector machines and decision trees.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO4. Apply k-means clustering to segment datasets.",
+   "label": "LO4. Apply k-means clustering to segment datasets.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO5. Evaluate models using accuracy, precision, recall and ROC curves.",
+   "label": "LO5. Evaluate models using accuracy, precision, recall and ROC curves.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "CS302 Database Systems",
+   "label": "CS302 Database Systems",
+   "type": "COURSE",
+   "code": "CS302",
+   "out": 28,
+   "in": 1
+  },
+  {
+   "id": "Dr. A. Kulkarni",
+   "label": "Dr. A. Kulkarni",
+   "type": "INSTRUCTOR",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "3",
+   "label": "3",
+   "type": "CREDITS",
+   "code": null,
+   "out": 0,
+   "in": 3
+  },
+  {
+   "id": "Entity-relationship modelling",
+   "label": "Entity-relationship modelling",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "functional dependencies",
+   "label": "functional dependencies",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Concurrency control",
+   "label": "Concurrency control",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "concurrency control",
+   "label": "concurrency control",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "relational algebra",
+   "label": "relational algebra",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Relational model",
+   "label": "Relational model",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "ACID properties",
+   "label": "ACID properties",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "document stores",
+   "label": "document stores",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "normalization",
+   "label": "normalization",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Normalization",
+   "label": "Normalization",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "transactions",
+   "label": "transactions",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Transactions",
+   "label": "Transactions",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "SQL queries",
+   "label": "SQL queries",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "indexing",
+   "label": "indexing",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Indexing",
+   "label": "Indexing",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "B-trees",
+   "label": "B-trees",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "NoSQL",
+   "label": "NoSQL",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 3
+  },
+  {
+   "id": "LO1. Design normalized relational schemas from requirements.",
+   "label": "LO1. Design normalized relational schemas from requirements.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO2. Write complex SQL queries with joins and aggregation.",
+   "label": "LO2. Write complex SQL queries with joins and aggregation.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO3. Explain transaction properties and concurrency control.",
+   "label": "LO3. Explain transaction properties and concurrency control.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO4. Compare relational and NoSQL storage models.",
+   "label": "LO4. Compare relational and NoSQL storage models.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "CS303 Operating Systems",
+   "label": "CS303 Operating Systems",
+   "type": "COURSE",
+   "code": "CS303",
+   "out": 24,
+   "in": 1
+  },
+  {
+   "id": "Prof. M. Bhat",
+   "label": "Prof. M. Bhat",
+   "type": "INSTRUCTOR",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Operating system concepts",
+   "label": "Operating system concepts",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Process synchronization",
+   "label": "Process synchronization",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Processes and threads",
+   "label": "Processes and threads",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "distributed systems",
+   "label": "distributed systems",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Memory management",
+   "label": "Memory management",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "page replacement",
+   "label": "page replacement",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "CPU scheduling",
+   "label": "CPU scheduling",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "virtual memory",
+   "label": "virtual memory",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Virtual memory",
+   "label": "Virtual memory",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "system calls",
+   "label": "system calls",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "file systems",
+   "label": "file systems",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "File systems",
+   "label": "File systems",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "semaphores",
+   "label": "semaphores",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "Deadlocks",
+   "label": "Deadlocks",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO1. Explain process states and scheduling policies.",
+   "label": "LO1. Explain process states and scheduling policies.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO2. Solve synchronization problems using semaphores.",
+   "label": "LO2. Solve synchronization problems using semaphores.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO3. Analyze page replacement algorithms.",
+   "label": "LO3. Analyze page replacement algorithms.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO4. Describe file system implementation.",
+   "label": "LO4. Describe file system implementation.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "CS304 Computer Networks",
+   "label": "CS304 Computer Networks",
+   "type": "COURSE",
+   "code": "CS304",
+   "out": 32,
+   "in": 1
+  },
+  {
+   "id": "Dr. K. Das",
+   "label": "Dr. K. Das",
+   "type": "INSTRUCTOR",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "TCP congestion control",
+   "label": "TCP congestion control",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "network architecture",
+   "label": "network architecture",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Network architecture",
+   "label": "Network architecture",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "data link protocols",
+   "label": "data link protocols",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "cryptography basics",
+   "label": "cryptography basics",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Routing algorithms",
+   "label": "Routing algorithms",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "routing algorithms",
+   "label": "routing algorithms",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "distance vector",
+   "label": "distance vector",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Layered models",
+   "label": "Layered models",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "layered models",
+   "label": "layered models",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "MAC protocols",
+   "label": "MAC protocols",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "IP addressing",
+   "label": "IP addressing",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "subnet masks",
+   "label": "subnet masks",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "subnetting",
+   "label": "subnetting",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "link state",
+   "label": "link state",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "firewalls",
+   "label": "firewalls",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Ethernet",
+   "label": "Ethernet",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "TCP/IP",
+   "label": "TCP/IP",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 3
+  },
+  {
+   "id": "HTTP",
+   "label": "HTTP",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "UDP",
+   "label": "UDP",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "DNS",
+   "label": "DNS",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "OSI",
+   "label": "OSI",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 2
+  },
+  {
+   "id": "LO1. Describe the OSI and TCP/IP layering.",
+   "label": "LO1. Describe the OSI and TCP/IP layering.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO2. Compute subnet masks and address allocations.",
+   "label": "LO2. Compute subnet masks and address allocations.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO3. Compare routing algorithms.",
+   "label": "LO3. Compare routing algorithms.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO4. Explain TCP congestion control mechanisms.",
+   "label": "LO4. Explain TCP congestion control mechanisms.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "CS305 Web Technologies",
+   "label": "CS305 Web Technologies",
+   "type": "COURSE",
+   "code": "CS305",
+   "out": 23,
+   "in": 2
+  },
+  {
+   "id": "Prof. N. Sharma",
+   "label": "Prof. N. Sharma",
+   "type": "INSTRUCTOR",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Web performance",
+   "label": "Web performance",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "Authentication",
+   "label": "Authentication",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "CSS layout",
+   "label": "CSS layout",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "JavaScript",
+   "label": "JavaScript",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 3
+  },
+  {
+   "id": "REST API",
+   "label": "REST API",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "sessions",
+   "label": "sessions",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "flexbox",
+   "label": "flexbox",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "caching",
+   "label": "caching",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "React",
+   "label": "React",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "HTML",
+   "label": "HTML",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 3
+  },
+  {
+   "id": "grid",
+   "label": "grid",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "DOM",
+   "label": "DOM",
+   "type": "TOPIC",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO1. Build responsive web pages with HTML and CSS.",
+   "label": "LO1. Build responsive web pages with HTML and CSS.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO2. Program interactive frontends in JavaScript.",
+   "label": "LO2. Program interactive frontends in JavaScript.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO3. Design and consume REST APIs.",
+   "label": "LO3. Design and consume REST APIs.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  },
+  {
+   "id": "LO4. Integrate a relational database into a web application.",
+   "label": "LO4. Integrate a relational database into a web application.",
+   "type": "OUTCOME",
+   "code": null,
+   "out": 0,
+   "in": 1
+  }
+ ],
+ "edges": [
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "TAUGHT_BY",
+   "tail": "Prof. S. Menon",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "HAS_CREDITS",
+   "tail": "4",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Heaps and priority queues",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "minimum spanning trees",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Graph representations",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "binary search trees",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "dynamic programming",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "dynamic programming",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Dynamic programming",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "complexity analysis",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Complexity analysis",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Sorting algorithms",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Stacks and queues",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "NP-completeness",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Shortest paths",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "greedy methods",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "linked lists",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "linked lists",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Hash tables",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "hashing",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "hashing",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Arrays",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "Arrays",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "BFS",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "COVERS_TOPIC",
+   "tail": "DFS",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO1. Implement core data structures from scratch.",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO2. Analyze time and space complexity of algorithms.",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO3. Choose appropriate data structures for a given problem.",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO4. Apply dynamic programming to optimization problems.",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "PREREQUISITE_OF",
+   "tail": "CS301 Machine Learning",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "PREREQUISITE_OF",
+   "tail": "CS303 Operating Systems",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS201 Data Structures & Algorithms",
+   "relation": "PREREQUISITE_OF",
+   "tail": "CS305 Web Technologies",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS101 Introduction to Programming",
+   "relation": "PREREQUISITE_OF",
+   "tail": "CS201 Data Structures & Algorithms",
+   "doc": "CS201_data_structures.txt"
+  },
+  {
+   "head": "CS101 Introduction to Programming",
+   "relation": "PREREQUISITE_OF",
+   "tail": "CS302 Database Systems",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "TAUGHT_BY",
+   "tail": "Dr. R. Iyer",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "HAS_CREDITS",
+   "tail": "4",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "Principal component analysis",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "support vector machines",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "support vector machines",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "Support vector machines",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "hierarchical clustering",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "bias-variance tradeoff",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "classification metrics",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "Logistic regression",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "k-means clustering",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "k-means clustering",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "Linear regression",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "gradient descent",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "gradient descent",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "cross-validation",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "Machine Learning",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "machine learning",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "machine learning",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "neural networks",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "Neural networks",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "backpropagation",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "decision trees",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "decision trees",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "Decision trees",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "random forests",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "unsupervised",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "supervised",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "COVERS_TOPIC",
+   "tail": "clustering",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO1. Formulate a prediction problem as regression or classification.",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO2. Implement gradient descent for linear models.",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO3. Train and tune support vector machines and decision trees.",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO4. Apply k-means clustering to segment datasets.",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS301 Machine Learning",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO5. Evaluate models using accuracy, precision, recall and ROC curves.",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS306 Linear Algebra",
+   "relation": "CO_REQUISITE_OF",
+   "tail": "CS301 Machine Learning",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "MA202 Probability & Statistics",
+   "relation": "PREREQUISITE_OF",
+   "tail": "CS301 Machine Learning",
+   "doc": "CS301_machine_learning.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "TAUGHT_BY",
+   "tail": "Dr. A. Kulkarni",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "HAS_CREDITS",
+   "tail": "3",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Entity-relationship modelling",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Entity-relationship modelling",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "functional dependencies",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Concurrency control",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "concurrency control",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "relational algebra",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Relational model",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "ACID properties",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "document stores",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "normalization",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Normalization",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "transactions",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Transactions",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "SQL queries",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "SQL queries",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "indexing",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Indexing",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "B-trees",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "NoSQL",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "NoSQL",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "NoSQL",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO1. Design normalized relational schemas from requirements.",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO2. Write complex SQL queries with joins and aggregation.",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO3. Explain transaction properties and concurrency control.",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO4. Compare relational and NoSQL storage models.",
+   "doc": "CS302_database_systems.txt"
+  },
+  {
+   "head": "CS302 Database Systems",
+   "relation": "CO_REQUISITE_OF",
+   "tail": "CS305 Web Technologies",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "TAUGHT_BY",
+   "tail": "Prof. M. Bhat",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "HAS_CREDITS",
+   "tail": "4",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Operating system concepts",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Process synchronization",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Processes and threads",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "distributed systems",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Memory management",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "page replacement",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "page replacement",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "CPU scheduling",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "CPU scheduling",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "virtual memory",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Virtual memory",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "system calls",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "file systems",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "File systems",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "semaphores",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "semaphores",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "COVERS_TOPIC",
+   "tail": "Deadlocks",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO1. Explain process states and scheduling policies.",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO2. Solve synchronization problems using semaphores.",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO3. Analyze page replacement algorithms.",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO4. Describe file system implementation.",
+   "doc": "CS303_operating_systems.txt"
+  },
+  {
+   "head": "CS303 Operating Systems",
+   "relation": "PREREQUISITE_OF",
+   "tail": "CS304 Computer Networks",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "TAUGHT_BY",
+   "tail": "Dr. K. Das",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "HAS_CREDITS",
+   "tail": "3",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "TCP congestion control",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "TCP congestion control",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "network architecture",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "Network architecture",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "data link protocols",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "cryptography basics",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "Routing algorithms",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "routing algorithms",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "distance vector",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "Layered models",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "layered models",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "MAC protocols",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "IP addressing",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "subnet masks",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "subnetting",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "link state",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "firewalls",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "Ethernet",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "TCP/IP",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "TCP/IP",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "TCP/IP",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "HTTP",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "UDP",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "DNS",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "OSI",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "COVERS_TOPIC",
+   "tail": "OSI",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO1. Describe the OSI and TCP/IP layering.",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO2. Compute subnet masks and address allocations.",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO3. Compare routing algorithms.",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS304 Computer Networks",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO4. Explain TCP congestion control mechanisms.",
+   "doc": "CS304_computer_networks.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "TAUGHT_BY",
+   "tail": "Prof. N. Sharma",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "HAS_CREDITS",
+   "tail": "3",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "Web performance",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "Authentication",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "CSS layout",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "JavaScript",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "JavaScript",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "JavaScript",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "REST API",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "sessions",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "flexbox",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "caching",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "React",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "HTTP",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "HTML",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "HTML",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "HTML",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "grid",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "COVERS_TOPIC",
+   "tail": "DOM",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO1. Build responsive web pages with HTML and CSS.",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO2. Program interactive frontends in JavaScript.",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO3. Design and consume REST APIs.",
+   "doc": "CS305_web_technologies.txt"
+  },
+  {
+   "head": "CS305 Web Technologies",
+   "relation": "HAS_OUTCOME",
+   "tail": "LO4. Integrate a relational database into a web application.",
+   "doc": "CS305_web_technologies.txt"
+  }
+ ],
+ "topicIndex": [
+  {
+   "topic": "http",
+   "courses": [
+    "CS304 Computer Networks",
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "acid properties",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "arrays",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "authentication",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "b-trees",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "backpropagation",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "bfs",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "bias-variance tradeoff",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "binary search trees",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "caching",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "classification metrics",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "clustering",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "complexity analysis",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "concurrency control",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "cpu scheduling",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "cross-validation",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "cryptography basics",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "css layout",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "data link protocols",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "deadlocks",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "decision trees",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "dfs",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "distance vector",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "distributed systems",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "dns",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "document stores",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "dom",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "dynamic programming",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "entity-relationship modelling",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "ethernet",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "file systems",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "firewalls",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "flexbox",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "functional dependencies",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "gradient descent",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "graph representations",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "greedy methods",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "grid",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "hash tables",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "hashing",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "heaps and priority queues",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "hierarchical clustering",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "html",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "indexing",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "ip addressing",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "javascript",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "k-means clustering",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "layered models",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "linear regression",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "link state",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "linked lists",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "logistic regression",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "mac protocols",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "machine learning",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "memory management",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "minimum spanning trees",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "network architecture",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "neural networks",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "normalization",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "nosql",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "np-completeness",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "operating system concepts",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "osi",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "page replacement",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "principal component analysis",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "process synchronization",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "processes and threads",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "random forests",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "react",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "relational algebra",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "relational model",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "rest api",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "routing algorithms",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "semaphores",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "sessions",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  },
+  {
+   "topic": "shortest paths",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "sorting algorithms",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "sql queries",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "stacks and queues",
+   "courses": [
+    "CS201 Data Structures & Algorithms"
+   ]
+  },
+  {
+   "topic": "subnet masks",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "subnetting",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "supervised",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "support vector machines",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "system calls",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "tcp congestion control",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "tcp/ip",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "transactions",
+   "courses": [
+    "CS302 Database Systems"
+   ]
+  },
+  {
+   "topic": "udp",
+   "courses": [
+    "CS304 Computer Networks"
+   ]
+  },
+  {
+   "topic": "unsupervised",
+   "courses": [
+    "CS301 Machine Learning"
+   ]
+  },
+  {
+   "topic": "virtual memory",
+   "courses": [
+    "CS303 Operating Systems"
+   ]
+  },
+  {
+   "topic": "web performance",
+   "courses": [
+    "CS305 Web Technologies"
+   ]
+  }
+ ],
+ "benchmark": [
+  {
+   "query": "Prerequisites of CS301",
+   "found": "3",
+   "expected": "3",
+   "tp": "3",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Courses covering 'clustering'",
+   "found": "1",
+   "expected": "1",
+   "tp": "1",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Courses covering 'sql'",
+   "found": "1",
+   "expected": "1",
+   "tp": "1",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Learning outcomes of CS301",
+   "found": "5",
+   "expected": "5",
+   "tp": "5",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Courses taught by Dr. Iyer",
+   "found": "1",
+   "expected": "1",
+   "tp": "1",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Prerequisites of CS302",
+   "found": "1",
+   "expected": "1",
+   "tp": "1",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Courses covering 'normalization'",
+   "found": "1",
+   "expected": "1",
+   "tp": "1",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Courses covering 'deadlocks'",
+   "found": "1",
+   "expected": "1",
+   "tp": "1",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Courses covering 'subnetting'",
+   "found": "1",
+   "expected": "1",
+   "tp": "1",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  },
+  {
+   "query": "Courses covering 'flexbox'",
+   "found": "1",
+   "expected": "1",
+   "tp": "1",
+   "fp": "0",
+   "fn": "0",
+   "precision": "1.0",
+   "recall": "1.0",
+   "f1": "1.0"
+  }
+ ],
+ "entityCounts": {
+  "INSTRUCTOR": 6,
+  "CREDITS": 6,
+  "COURSE": 14,
+  "TOPIC": 131,
+  "OUTCOME": 25
+ },
+ "relationCounts": {
+  "TAUGHT_BY": 6,
+  "HAS_CREDITS": 6,
+  "COVERS_TOPIC": 131,
+  "HAS_OUTCOME": 25,
+  "PREREQUISITE_OF": 7,
+  "CO_REQUISITE_OF": 2
+ }
+}

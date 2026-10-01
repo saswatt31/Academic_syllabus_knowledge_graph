@@ -1,0 +1,11 @@
+query,found,expected,tp,fp,fn,precision,recall,f1
+Prerequisites of CS301,3,3,3,0,0,1.0,1.0,1.0
+Courses covering 'clustering',1,1,1,0,0,1.0,1.0,1.0
+Courses covering 'sql',1,1,1,0,0,1.0,1.0,1.0
+Learning outcomes of CS301,5,5,5,0,0,1.0,1.0,1.0
+Courses taught by Dr. Iyer,1,1,1,0,0,1.0,1.0,1.0
+Prerequisites of CS302,1,1,1,0,0,1.0,1.0,1.0
+Courses covering 'normalization',1,1,1,0,0,1.0,1.0,1.0
+Courses covering 'deadlocks',1,1,1,0,0,1.0,1.0,1.0
+Courses covering 'subnetting',1,1,1,0,0,1.0,1.0,1.0
+Courses covering 'flexbox',1,1,1,0,0,1.0,1.0,1.0

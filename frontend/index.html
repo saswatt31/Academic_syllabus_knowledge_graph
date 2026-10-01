@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syllabus Atlas · Academic Curriculum Knowledge Graph</title>
+<meta name="description" content="Auditable knowledge graph across six academic course syllabi — deterministic NER and relation extraction, 148 nodes, 177 relations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header Navigation -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-title">Syllabus Atlas</span>
+      <span class="brand-sub">Academic knowledge graph</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#graph">Curriculum graph</a>
+      <a href="#courses">Courses</a>
+      <a href="#topics">Topic index</a>
+      <a href="#queries">Query console</a>
+      <a href="#benchmark">Benchmark</a>
+      <a href="#pipeline">Pipeline</a>
+    </nav>
+    <div class="header-status">
+      <span class="status-indicator"></span>
+      <span>148 nodes · 177 relations</span>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-section" id="top">
+  <div class="wrap hero-layout">
+    <div class="hero-narrative">
+      <div class="section-label">Curriculum knowledge extraction</div>
+      <h1 class="hero-headline">Every course prerequisite, topic, and outcome linked into one graph.</h1>
+      <p class="hero-body">
+        Built from six undergraduate computer science syllabi using deterministic rule-based NLP.
+        182 entities and 177 relations consolidated into 148 canonical nodes, with every assertion
+        traceable to exact source line spans.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#graph">Explore curriculum graph</a>
+        <a class="btn-secondary" href="#queries">Run graph queries</a>
+      </div>
+      <dl class="metric-list">
+        <div class="metric-item">
+          <dt class="metric-label">Graph nodes</dt>
+          <dd class="metric-value" data-count="148">148</dd>
+        </div>
+        <div class="metric-item">
+          <dt class="metric-label">Verified relations</dt>
+          <dd class="metric-value" data-count="177">177</dd>
+        </div>
+        <div class="metric-item">
+          <dt class="metric-label">Extracted entities</dt>
+          <dd class="metric-value" data-count="182">182</dd>
+        </div>
+        <div class="metric-item">
+          <dt class="metric-label">Curriculum topics</dt>
+          <dd class="metric-value" data-count="91">91</dd>
+        </div>
+      </dl>
+    </div>
+    
+    <div class="hero-cartogram">
+      <div class="cartogram-card">
+        <div class="cartogram-header">
+          <span class="cartogram-title">Prerequisite network preview</span>
+          <span class="cartogram-meta">NetworkX topology</span>
+        </div>
+        <div class="canvas-container">
+          <canvas id="heroGraph" width="560" height="360"></canvas>
+        </div>
+        <div class="cartogram-legend">
+          <span class="legend-entry"><span class="legend-swatch course"></span>Course</span>
+          <span class="legend-entry"><span class="legend-swatch topic"></span>Topic</span>
+          <span class="legend-entry"><span class="legend-swatch outcome"></span>Outcome</span>
+          <span class="legend-entry"><span class="legend-swatch instructor"></span>Instructor</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Interactive Explorer -->
+<section class="content-section" id="graph">
+  <div class="wrap">
+    <div class="section-heading">
+      <div class="section-label">Interactive topology</div>
+      <h2>Full curriculum knowledge graph</h2>
+      <p class="section-description">
+        Force-directed layout of all 148 nodes and 177 relations rendered from <code>knowledge_graph.graphml</code>.
+        Click any node to inspect syllabus metadata, attributes, and connected relations. Scroll to zoom or drag the canvas to pan.
+      </p>
+    </div>
+    <div class="explorer-grid">
+      <div class="graph-frame">
+        <canvas id="mainGraph" width="860" height="600"></canvas>
+        <div class="graph-controls">
+          <button class="control-btn" id="zoomIn" title="Zoom in">+</button>
+          <button class="control-btn" id="zoomOut" title="Zoom out">−</button>
+          <button class="control-btn" id="zoomFit" title="Reset view">Fit</button>
+        </div>
+        <div class="graph-status-bar">Click any node to inspect attributes · Drag background to pan · Scroll to zoom</div>
+      </div>
+      <aside class="inspector-panel" id="inspector">
+        <div class="inspector-prompt">
+          <div class="inspector-icon">⬡</div>
+          <p><strong>Select a node in the graph</strong> to inspect its attributes and connected relations.</p>
+        </div>
+        <div class="inspector-content" hidden>
+          <div class="node-badge" id="iType"></div>
+          <h3 class="node-name" id="iName"></h3>
+          <div class="node-stats" id="iStats"></div>
+          <div class="relation-list" id="iRels"></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- Course Catalog -->
+<section class="content-section alternate-bg" id="courses">
+  <div class="wrap">
+    <div class="section-heading">
+      <div class="section-label">Course catalog</div>
+      <h2>Curriculum courses and extracted metadata</h2>
+      <p class="section-description">
+        Six primary course syllabi plus referenced prerequisite courses. Click any course card to highlight its position and dependencies in the graph above.
+      </p>
+    </div>
+    <div class="course-matrix" id="courseGrid"></div>
+  </div>
+</section>
+
+<!-- Topic Index -->
+<section class="content-section" id="topics">
+  <div class="wrap">
+    <div class="section-heading">
+      <div class="section-label">Topic concordance</div>
+      <h2>Cross-course topic index</h2>
+      <p class="section-description">
+        Index of 91 curriculum topics extracted from weekly course outlines. Filter by keyword to see which courses cover each topic.
+      </p>
+    </div>
+    <input class="search-input" id="topicSearch" type="text"
+           placeholder="Search topics by keyword (e.g., clustering, normalization, deadlocks, sockets)...">
+    <div class="topic-matrix" id="topicGrid"></div>
+  </div>
+</section>
+
+<!-- Query Console -->
+<section class="content-section alternate-bg" id="queries">
+  <div class="wrap">
+    <div class="section-heading">
+      <div class="section-label">Relational query console</div>
+      <h2>Query the curriculum graph</h2>
+      <p class="section-description">
+        Live execution of structured graph queries corresponding to <code>query_graph.py</code>. Select query parameters to inspect the generated Cypher query and answer trace.
+      </p>
+    </div>
+    <div class="console-box">
+      <div class="console-controls">
+        <div class="form-field">
+          <label for="qCourse">Course</label>
+          <select id="qCourse"></select>
+        </div>
+        <div class="form-field">
+          <label for="qTopic">Topic</label>
+          <select id="qTopic"></select>
+        </div>
+        <div class="form-field">
+          <label for="qType">Query pattern</label>
+          <select id="qType">
+            <option value="prereq">Prerequisites of course</option>
+            <option value="covers">Courses covering topic</option>
+            <option value="outcomes">Learning outcomes</option>
+            <option value="taught">Instructor lookup</option>
+          </select>
+        </div>
+        <button class="btn-primary" id="qRun">Execute query</button>
+      </div>
+      <div class="console-results">
+        <div class="query-code" id="qCode"></div>
+        <div class="query-output" id="qAnswer"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Benchmark & Evaluation -->
+<section class="content-section" id="benchmark">
+  <div class="wrap">
+    <div class="section-heading">
+      <div class="section-label">Verification & evaluation</div>
+      <h2>Extraction fidelity benchmark</h2>
+      <p class="section-description">
+        Ten benchmark evaluation questions evaluated against independently derived ground-truth answers from the original syllabus text.
+      </p>
+    </div>
+    <div class="benchmark-grid">
+      <div class="table-container">
+        <table class="benchmark-table">
+          <thead>
+            <tr>
+              <th>Evaluation query</th>
+              <th>Found</th>
+              <th>Expected</th>
+              <th>Precision</th>
+              <th>Recall</th>
+              <th>F1 score</th>
+            </tr>
+          </thead>
+          <tbody id="benchBody"></tbody>
+        </table>
+      </div>
+      <div class="summary-cards">
+        <div class="metric-card">
+          <div class="metric-num" id="scoreF1">1.0000</div>
+          <div class="metric-title">Micro F1 across benchmark</div>
+          <div class="metric-subtitle">30 of 30 expected answer elements retrieved with precision 1.0000 and recall 1.0000.</div>
+        </div>
+        <div class="metric-card verified">
+          <div class="metric-num">177 / 177</div>
+          <div class="metric-title">Relation consistency</div>
+          <div class="metric-subtitle">100% of extracted relations pass automated source-document re-verification with zero contradictions.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pipeline Section -->
+<section class="content-section alternate-bg" id="pipeline">
+  <div class="wrap">
+    <div class="section-heading">
+      <div class="section-label">Implementation</div>
+      <h2>Four-stage extraction pipeline</h2>
+      <p class="section-description">
+        The pipeline executes entirely offline using rule-based regular expressions, syntactic triggers, and gazetteer lookup.
+      </p>
+    </div>
+    <div class="stage-grid">
+      <div class="stage-card">
+        <div class="stage-number">1</div>
+        <h3>Entity recognition</h3>
+        <p class="stage-script">ner_extractor.py</p>
+        <p class="stage-desc">Scans course text for codes, instructors, credit counts, outcome markers, and 91 gazetteer topics with character offsets.</p>
+      </div>
+      <div class="stage-card">
+        <div class="stage-number">2</div>
+        <h3>Relation extraction</h3>
+        <p class="stage-script">relation_extractor.py</p>
+        <p class="stage-desc">Binds entities into six typed relations; canonicalises bare course codes against the corpus header index.</p>
+      </div>
+      <div class="stage-card">
+        <div class="stage-number">3</div>
+        <h3>Graph construction</h3>
+        <p class="stage-script">build_graph.py</p>
+        <p class="stage-desc">Assembles a NetworkX MultiDiGraph and serialises graph tables into GraphML and relational CSVs.</p>
+      </div>
+      <div class="stage-card">
+        <div class="stage-number">4</div>
+        <h3>Verification & benchmark</h3>
+        <p class="stage-script">evaluate_extraction.py</p>
+        <p class="stage-desc">Evaluates relation consistency against source text and runs the 10-query benchmark suite.</p>
+      </div>
+    </div>
+    <div class="terminal-strip">
+      <span class="terminal-prompt">$</span>
+      <code>python run_all.py</code>
+      <span class="terminal-note">Executes extraction, graph build, evaluation, and benchmark reproduction</span>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="wrap footer-content">
+    <div class="footer-left">
+      <div class="footer-title">Academic Syllabus Knowledge Graph</div>
+      <p class="footer-meta">
+        Group 4 · Seventh Semester B.Tech AI &amp; ML · Faculty Guide: Rahul Rawat<br>
+        Faculty of Engineering &amp; Technology · Academic Year 2023–2027
+      </p>
+    </div>
+    <div class="footer-right">
+      <span class="footer-tag">148 nodes · 177 edges · 1.0000 micro F1</span>
+    </div>
+  </div>
+</footer>
+
+<script src="data/graph_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

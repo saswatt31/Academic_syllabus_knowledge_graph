@@ -1,0 +1,183 @@
+doc,entity,type,span_start,span_end
+CS201_data_structures.txt,Prof. S. Menon,INSTRUCTOR,66,80
+CS201_data_structures.txt,4,CREDITS,81,91
+CS201_data_structures.txt,CS201 Data Structures & Algorithms,COURSE,0,34
+CS201_data_structures.txt,CS101 Introduction to Programming is a prerequisite for this course,COURSE,308,375
+CS201_data_structures.txt,Heaps and priority queues,TOPIC,506,531
+CS201_data_structures.txt,minimum spanning trees,TOPIC,653,675
+CS201_data_structures.txt,Graph representations,TOPIC,576,597
+CS201_data_structures.txt,binary search trees,TOPIC,476,495
+CS201_data_structures.txt,dynamic programming,TOPIC,233,252
+CS201_data_structures.txt,Dynamic programming,TOPIC,715,734
+CS201_data_structures.txt,dynamic programming,TOPIC,1008,1027
+CS201_data_structures.txt,complexity analysis,TOPIC,257,276
+CS201_data_structures.txt,Complexity analysis,TOPIC,765,784
+CS201_data_structures.txt,Sorting algorithms,TOPIC,686,704
+CS201_data_structures.txt,Stacks and queues,TOPIC,438,455
+CS201_data_structures.txt,NP-completeness,TOPIC,789,804
+CS201_data_structures.txt,Shortest paths,TOPIC,634,648
+CS201_data_structures.txt,greedy methods,TOPIC,739,753
+CS201_data_structures.txt,linked lists,TOPIC,186,198
+CS201_data_structures.txt,linked lists,TOPIC,415,427
+CS201_data_structures.txt,Hash tables,TOPIC,542,553
+CS201_data_structures.txt,hashing,TOPIC,215,222
+CS201_data_structures.txt,hashing,TOPIC,558,565
+CS201_data_structures.txt,Arrays,TOPIC,178,184
+CS201_data_structures.txt,Arrays,TOPIC,404,410
+CS201_data_structures.txt,BFS,TOPIC,614,617
+CS201_data_structures.txt,DFS,TOPIC,619,622
+CS201_data_structures.txt,LO1. Implement core data structures from scratch.,OUTCOME,832,881
+CS201_data_structures.txt,LO2. Analyze time and space complexity of algorithms.,OUTCOME,882,935
+CS201_data_structures.txt,LO3. Choose appropriate data structures for a given problem.,OUTCOME,936,996
+CS201_data_structures.txt,LO4. Apply dynamic programming to optimization problems.,OUTCOME,997,1053
+CS301_machine_learning.txt,Dr. R. Iyer,INSTRUCTOR,54,65
+CS301_machine_learning.txt,4,CREDITS,66,76
+CS301_machine_learning.txt,CS301 Machine Learning,COURSE,0,22
+CS301_machine_learning.txt,CS201 Data Structures & Algorithms and MA202,COURSE,431,475
+CS301_machine_learning.txt,CS306 Linear Algebra,COURSE,533,553
+CS301_machine_learning.txt,Principal component analysis,TOPIC,885,913
+CS301_machine_learning.txt,support vector machines,TOPIC,315,338
+CS301_machine_learning.txt,Support vector machines,TOPIC,794,817
+CS301_machine_learning.txt,support vector machines,TOPIC,1233,1256
+CS301_machine_learning.txt,hierarchical clustering,TOPIC,851,874
+CS301_machine_learning.txt,bias-variance tradeoff,TOPIC,1009,1031
+CS301_machine_learning.txt,classification metrics,TOPIC,717,739
+CS301_machine_learning.txt,Logistic regression,TOPIC,693,712
+CS301_machine_learning.txt,k-means clustering,TOPIC,828,846
+CS301_machine_learning.txt,k-means clustering,TOPIC,1288,1306
+CS301_machine_learning.txt,Linear regression,TOPIC,644,661
+CS301_machine_learning.txt,gradient descent,TOPIC,666,682
+CS301_machine_learning.txt,gradient descent,TOPIC,1177,1193
+CS301_machine_learning.txt,cross-validation,TOPIC,988,1004
+CS301_machine_learning.txt,Machine Learning,TOPIC,6,22
+CS301_machine_learning.txt,machine learning,TOPIC,171,187
+CS301_machine_learning.txt,machine learning,TOPIC,598,614
+CS301_machine_learning.txt,neural networks,TOPIC,352,367
+CS301_machine_learning.txt,Neural networks,TOPIC,924,939
+CS301_machine_learning.txt,backpropagation,TOPIC,944,959
+CS301_machine_learning.txt,decision trees,TOPIC,299,313
+CS301_machine_learning.txt,Decision trees,TOPIC,750,764
+CS301_machine_learning.txt,decision trees,TOPIC,1261,1275
+CS301_machine_learning.txt,random forests,TOPIC,769,783
+CS301_machine_learning.txt,unsupervised,TOPIC,158,170
+CS301_machine_learning.txt,supervised,TOPIC,143,153
+CS301_machine_learning.txt,clustering,TOPIC,237,247
+CS301_machine_learning.txt,LO1. Formulate a prediction problem as regression or classification.,OUTCOME,1093,1161
+CS301_machine_learning.txt,LO2. Implement gradient descent for linear models.,OUTCOME,1162,1212
+CS301_machine_learning.txt,LO3. Train and tune support vector machines and decision trees.,OUTCOME,1213,1276
+CS301_machine_learning.txt,LO4. Apply k-means clustering to segment datasets.,OUTCOME,1277,1327
+CS301_machine_learning.txt,"LO5. Evaluate models using accuracy, precision, recall and ROC curves.",OUTCOME,1328,1398
+CS302_database_systems.txt,Dr. A. Kulkarni,INSTRUCTOR,54,69
+CS302_database_systems.txt,3,CREDITS,70,80
+CS302_database_systems.txt,CS302 Database Systems,COURSE,0,22
+CS302_database_systems.txt,CS101 Introduction to Programming,COURSE,298,331
+CS302_database_systems.txt,Entity-relationship modelling,TOPIC,162,191
+CS302_database_systems.txt,Entity-relationship modelling,TOPIC,360,389
+CS302_database_systems.txt,functional dependencies,TOPIC,513,536
+CS302_database_systems.txt,Concurrency control,TOPIC,621,640
+CS302_database_systems.txt,concurrency control,TOPIC,886,905
+CS302_database_systems.txt,relational algebra,TOPIC,421,439
+CS302_database_systems.txt,Relational model,TOPIC,400,416
+CS302_database_systems.txt,ACID properties,TOPIC,595,610
+CS302_database_systems.txt,document stores,TOPIC,690,705
+CS302_database_systems.txt,normalization,TOPIC,198,211
+CS302_database_systems.txt,Normalization,TOPIC,495,508
+CS302_database_systems.txt,transactions,TOPIC,213,225
+CS302_database_systems.txt,Transactions,TOPIC,578,590
+CS302_database_systems.txt,SQL queries,TOPIC,450,461
+CS302_database_systems.txt,SQL queries,TOPIC,806,817
+CS302_database_systems.txt,indexing,TOPIC,227,235
+CS302_database_systems.txt,Indexing,TOPIC,547,555
+CS302_database_systems.txt,B-trees,TOPIC,560,567
+CS302_database_systems.txt,NoSQL,TOPIC,259,264
+CS302_database_systems.txt,NoSQL,TOPIC,680,685
+CS302_database_systems.txt,NoSQL,TOPIC,935,940
+CS302_database_systems.txt,LO1. Design normalized relational schemas from requirements.,OUTCOME,726,786
+CS302_database_systems.txt,LO2. Write complex SQL queries with joins and aggregation.,OUTCOME,787,845
+CS302_database_systems.txt,LO3. Explain transaction properties and concurrency control.,OUTCOME,846,906
+CS302_database_systems.txt,LO4. Compare relational and NoSQL storage models.,OUTCOME,907,956
+CS303_operating_systems.txt,Prof. M. Bhat,INSTRUCTOR,55,68
+CS303_operating_systems.txt,4,CREDITS,69,79
+CS303_operating_systems.txt,CS303 Operating Systems,COURSE,0,23
+CS303_operating_systems.txt,CS201 Data Structures & Algorithms must be completed before this course,COURSE,267,338
+CS303_operating_systems.txt,Operating system concepts,TOPIC,123,148
+CS303_operating_systems.txt,Process synchronization,TOPIC,475,498
+CS303_operating_systems.txt,Processes and threads,TOPIC,407,428
+CS303_operating_systems.txt,distributed systems,TOPIC,668,687
+CS303_operating_systems.txt,Memory management,TOPIC,544,561
+CS303_operating_systems.txt,page replacement,TOPIC,602,618
+CS303_operating_systems.txt,page replacement,TOPIC,828,844
+CS303_operating_systems.txt,CPU scheduling,TOPIC,170,184
+CS303_operating_systems.txt,CPU scheduling,TOPIC,439,453
+CS303_operating_systems.txt,virtual memory,TOPIC,205,219
+CS303_operating_systems.txt,Virtual memory,TOPIC,583,597
+CS303_operating_systems.txt,system calls,TOPIC,384,396
+CS303_operating_systems.txt,file systems,TOPIC,221,233
+CS303_operating_systems.txt,File systems,TOPIC,629,641
+CS303_operating_systems.txt,semaphores,TOPIC,503,513
+CS303_operating_systems.txt,semaphores,TOPIC,803,813
+CS303_operating_systems.txt,Deadlocks,TOPIC,524,533
+CS303_operating_systems.txt,LO1. Explain process states and scheduling policies.,OUTCOME,708,760
+CS303_operating_systems.txt,LO2. Solve synchronization problems using semaphores.,OUTCOME,761,814
+CS303_operating_systems.txt,LO3. Analyze page replacement algorithms.,OUTCOME,815,856
+CS303_operating_systems.txt,LO4. Describe file system implementation.,OUTCOME,857,898
+CS304_computer_networks.txt,Dr. K. Das,INSTRUCTOR,55,65
+CS304_computer_networks.txt,3,CREDITS,66,76
+CS304_computer_networks.txt,CS304 Computer Networks,COURSE,0,23
+CS304_computer_networks.txt,CS303 Operating Systems,COURSE,277,300
+CS304_computer_networks.txt,TCP congestion control,TOPIC,602,624
+CS304_computer_networks.txt,TCP congestion control,TOPIC,890,912
+CS304_computer_networks.txt,network architecture,TOPIC,129,149
+CS304_computer_networks.txt,Network architecture,TOPIC,329,349
+CS304_computer_networks.txt,data link protocols,TOPIC,412,431
+CS304_computer_networks.txt,cryptography basics,TOPIC,699,718
+CS304_computer_networks.txt,Routing algorithms,TOPIC,518,536
+CS304_computer_networks.txt,routing algorithms,TOPIC,857,875
+CS304_computer_networks.txt,distance vector,TOPIC,538,553
+CS304_computer_networks.txt,Layered models,TOPIC,165,179
+CS304_computer_networks.txt,layered models,TOPIC,354,368
+CS304_computer_networks.txt,MAC protocols,TOPIC,442,455
+CS304_computer_networks.txt,IP addressing,TOPIC,479,492
+CS304_computer_networks.txt,subnet masks,TOPIC,806,818
+CS304_computer_networks.txt,subnetting,TOPIC,497,507
+CS304_computer_networks.txt,link state,TOPIC,555,565
+CS304_computer_networks.txt,firewalls,TOPIC,720,729
+CS304_computer_networks.txt,Ethernet,TOPIC,460,468
+CS304_computer_networks.txt,TCP/IP,TOPIC,181,187
+CS304_computer_networks.txt,TCP/IP,TOPIC,375,381
+CS304_computer_networks.txt,TCP/IP,TOPIC,776,782
+CS304_computer_networks.txt,HTTP,TOPIC,659,663
+CS304_computer_networks.txt,UDP,TOPIC,594,597
+CS304_computer_networks.txt,DNS,TOPIC,654,657
+CS304_computer_networks.txt,OSI,TOPIC,370,373
+CS304_computer_networks.txt,OSI,TOPIC,768,771
+CS304_computer_networks.txt,LO1. Describe the OSI and TCP/IP layering.,OUTCOME,750,792
+CS304_computer_networks.txt,LO2. Compute subnet masks and address allocations.,OUTCOME,793,843
+CS304_computer_networks.txt,LO3. Compare routing algorithms.,OUTCOME,844,876
+CS304_computer_networks.txt,LO4. Explain TCP congestion control mechanisms.,OUTCOME,877,924
+CS305_web_technologies.txt,Prof. N. Sharma,INSTRUCTOR,54,69
+CS305_web_technologies.txt,3,CREDITS,70,80
+CS305_web_technologies.txt,CS305 Web Technologies,COURSE,0,22
+CS305_web_technologies.txt,CS201 Data Structures & Algorithms,COURSE,295,329
+CS305_web_technologies.txt,CS302 Database Systems,COURSE,345,367
+CS305_web_technologies.txt,Web performance,TOPIC,684,699
+CS305_web_technologies.txt,Authentication,TOPIC,603,617
+CS305_web_technologies.txt,CSS layout,TOPIC,435,445
+CS305_web_technologies.txt,JavaScript,TOPIC,163,173
+CS305_web_technologies.txt,JavaScript,TOPIC,474,484
+CS305_web_technologies.txt,JavaScript,TOPIC,821,831
+CS305_web_technologies.txt,REST API,TOPIC,529,537
+CS305_web_technologies.txt,sessions,TOPIC,622,630
+CS305_web_technologies.txt,flexbox,TOPIC,447,454
+CS305_web_technologies.txt,caching,TOPIC,704,711
+CS305_web_technologies.txt,React,TOPIC,579,584
+CS305_web_technologies.txt,HTTP,TOPIC,520,524
+CS305_web_technologies.txt,HTML,TOPIC,152,156
+CS305_web_technologies.txt,HTML,TOPIC,396,400
+CS305_web_technologies.txt,HTML,TOPIC,769,773
+CS305_web_technologies.txt,grid,TOPIC,459,463
+CS305_web_technologies.txt,DOM,TOPIC,506,509
+CS305_web_technologies.txt,LO1. Build responsive web pages with HTML and CSS.,OUTCOME,732,782
+CS305_web_technologies.txt,LO2. Program interactive frontends in JavaScript.,OUTCOME,783,832
+CS305_web_technologies.txt,LO3. Design and consume REST APIs.,OUTCOME,833,867
+CS305_web_technologies.txt,LO4. Integrate a relational database into a web application.,OUTCOME,868,928

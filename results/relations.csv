@@ -1,0 +1,178 @@
+head,head_type,relation,tail,tail_type,doc
+CS201 Data Structures & Algorithms,COURSE,TAUGHT_BY,Prof. S. Menon,INSTRUCTOR,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,HAS_CREDITS,4,CREDITS,CS201_data_structures.txt
+CS101 Introduction to Programming,PREREQUISITE,PREREQUISITE_OF,CS201 Data Structures & Algorithms,COURSE,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Heaps and priority queues,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,minimum spanning trees,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Graph representations,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,binary search trees,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,dynamic programming,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Dynamic programming,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,dynamic programming,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,complexity analysis,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Complexity analysis,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Sorting algorithms,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Stacks and queues,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,NP-completeness,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Shortest paths,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,greedy methods,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,linked lists,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,linked lists,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Hash tables,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,hashing,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,hashing,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Arrays,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,Arrays,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,BFS,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,COVERS_TOPIC,DFS,TOPIC,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,HAS_OUTCOME,LO1. Implement core data structures from scratch.,OUTCOME,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,HAS_OUTCOME,LO2. Analyze time and space complexity of algorithms.,OUTCOME,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,HAS_OUTCOME,LO3. Choose appropriate data structures for a given problem.,OUTCOME,CS201_data_structures.txt
+CS201 Data Structures & Algorithms,COURSE,HAS_OUTCOME,LO4. Apply dynamic programming to optimization problems.,OUTCOME,CS201_data_structures.txt
+CS301 Machine Learning,COURSE,TAUGHT_BY,Dr. R. Iyer,INSTRUCTOR,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,HAS_CREDITS,4,CREDITS,CS301_machine_learning.txt
+CS201 Data Structures & Algorithms,PREREQUISITE,PREREQUISITE_OF,CS301 Machine Learning,COURSE,CS301_machine_learning.txt
+CS306 Linear Algebra,PREREQUISITE,CO_REQUISITE_OF,CS301 Machine Learning,COURSE,CS301_machine_learning.txt
+MA202 Probability & Statistics,PREREQUISITE,PREREQUISITE_OF,CS301 Machine Learning,COURSE,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,Principal component analysis,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,support vector machines,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,Support vector machines,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,support vector machines,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,hierarchical clustering,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,bias-variance tradeoff,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,classification metrics,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,Logistic regression,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,k-means clustering,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,k-means clustering,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,Linear regression,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,gradient descent,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,gradient descent,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,cross-validation,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,Machine Learning,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,machine learning,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,machine learning,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,neural networks,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,Neural networks,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,backpropagation,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,decision trees,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,Decision trees,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,decision trees,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,random forests,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,unsupervised,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,supervised,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,COVERS_TOPIC,clustering,TOPIC,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,HAS_OUTCOME,LO1. Formulate a prediction problem as regression or classification.,OUTCOME,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,HAS_OUTCOME,LO2. Implement gradient descent for linear models.,OUTCOME,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,HAS_OUTCOME,LO3. Train and tune support vector machines and decision trees.,OUTCOME,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,HAS_OUTCOME,LO4. Apply k-means clustering to segment datasets.,OUTCOME,CS301_machine_learning.txt
+CS301 Machine Learning,COURSE,HAS_OUTCOME,"LO5. Evaluate models using accuracy, precision, recall and ROC curves.",OUTCOME,CS301_machine_learning.txt
+CS302 Database Systems,COURSE,TAUGHT_BY,Dr. A. Kulkarni,INSTRUCTOR,CS302_database_systems.txt
+CS302 Database Systems,COURSE,HAS_CREDITS,3,CREDITS,CS302_database_systems.txt
+CS101 Introduction to Programming,PREREQUISITE,PREREQUISITE_OF,CS302 Database Systems,COURSE,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,Entity-relationship modelling,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,Entity-relationship modelling,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,functional dependencies,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,Concurrency control,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,concurrency control,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,relational algebra,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,Relational model,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,ACID properties,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,document stores,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,normalization,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,Normalization,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,transactions,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,Transactions,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,SQL queries,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,SQL queries,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,indexing,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,Indexing,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,B-trees,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,NoSQL,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,NoSQL,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,COVERS_TOPIC,NoSQL,TOPIC,CS302_database_systems.txt
+CS302 Database Systems,COURSE,HAS_OUTCOME,LO1. Design normalized relational schemas from requirements.,OUTCOME,CS302_database_systems.txt
+CS302 Database Systems,COURSE,HAS_OUTCOME,LO2. Write complex SQL queries with joins and aggregation.,OUTCOME,CS302_database_systems.txt
+CS302 Database Systems,COURSE,HAS_OUTCOME,LO3. Explain transaction properties and concurrency control.,OUTCOME,CS302_database_systems.txt
+CS302 Database Systems,COURSE,HAS_OUTCOME,LO4. Compare relational and NoSQL storage models.,OUTCOME,CS302_database_systems.txt
+CS303 Operating Systems,COURSE,TAUGHT_BY,Prof. M. Bhat,INSTRUCTOR,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,HAS_CREDITS,4,CREDITS,CS303_operating_systems.txt
+CS201 Data Structures & Algorithms,PREREQUISITE,PREREQUISITE_OF,CS303 Operating Systems,COURSE,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,Operating system concepts,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,Process synchronization,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,Processes and threads,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,distributed systems,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,Memory management,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,page replacement,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,page replacement,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,CPU scheduling,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,CPU scheduling,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,virtual memory,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,Virtual memory,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,system calls,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,file systems,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,File systems,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,semaphores,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,semaphores,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,COVERS_TOPIC,Deadlocks,TOPIC,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,HAS_OUTCOME,LO1. Explain process states and scheduling policies.,OUTCOME,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,HAS_OUTCOME,LO2. Solve synchronization problems using semaphores.,OUTCOME,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,HAS_OUTCOME,LO3. Analyze page replacement algorithms.,OUTCOME,CS303_operating_systems.txt
+CS303 Operating Systems,COURSE,HAS_OUTCOME,LO4. Describe file system implementation.,OUTCOME,CS303_operating_systems.txt
+CS304 Computer Networks,COURSE,TAUGHT_BY,Dr. K. Das,INSTRUCTOR,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,HAS_CREDITS,3,CREDITS,CS304_computer_networks.txt
+CS303 Operating Systems,PREREQUISITE,PREREQUISITE_OF,CS304 Computer Networks,COURSE,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,TCP congestion control,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,TCP congestion control,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,network architecture,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,Network architecture,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,data link protocols,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,cryptography basics,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,Routing algorithms,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,routing algorithms,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,distance vector,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,Layered models,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,layered models,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,MAC protocols,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,IP addressing,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,subnet masks,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,subnetting,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,link state,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,firewalls,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,Ethernet,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,TCP/IP,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,TCP/IP,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,TCP/IP,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,HTTP,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,UDP,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,DNS,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,OSI,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,COVERS_TOPIC,OSI,TOPIC,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,HAS_OUTCOME,LO1. Describe the OSI and TCP/IP layering.,OUTCOME,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,HAS_OUTCOME,LO2. Compute subnet masks and address allocations.,OUTCOME,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,HAS_OUTCOME,LO3. Compare routing algorithms.,OUTCOME,CS304_computer_networks.txt
+CS304 Computer Networks,COURSE,HAS_OUTCOME,LO4. Explain TCP congestion control mechanisms.,OUTCOME,CS304_computer_networks.txt
+CS305 Web Technologies,COURSE,TAUGHT_BY,Prof. N. Sharma,INSTRUCTOR,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,HAS_CREDITS,3,CREDITS,CS305_web_technologies.txt
+CS201 Data Structures & Algorithms,PREREQUISITE,PREREQUISITE_OF,CS305 Web Technologies,COURSE,CS305_web_technologies.txt
+CS302 Database Systems,PREREQUISITE,CO_REQUISITE_OF,CS305 Web Technologies,COURSE,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,Web performance,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,Authentication,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,CSS layout,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,JavaScript,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,JavaScript,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,JavaScript,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,REST API,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,sessions,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,flexbox,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,caching,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,React,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,HTTP,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,HTML,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,HTML,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,HTML,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,grid,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,COVERS_TOPIC,DOM,TOPIC,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,HAS_OUTCOME,LO1. Build responsive web pages with HTML and CSS.,OUTCOME,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,HAS_OUTCOME,LO2. Program interactive frontends in JavaScript.,OUTCOME,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,HAS_OUTCOME,LO3. Design and consume REST APIs.,OUTCOME,CS305_web_technologies.txt
+CS305 Web Technologies,COURSE,HAS_OUTCOME,LO4. Integrate a relational database into a web application.,OUTCOME,CS305_web_technologies.txt

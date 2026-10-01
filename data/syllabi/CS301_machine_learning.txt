@@ -1,0 +1,34 @@
+CS301 Machine Learning — Course Syllabus
+
+Instructor: Dr. R. Iyer
+Credits: 4
+Semester: Autumn 2026
+
+Course Description:
+This course introduces supervised and unsupervised machine learning. Students
+will study regression, classification, clustering and model evaluation, and
+apply algorithms such as decision trees, support vector machines, k-means and
+neural networks to real datasets.
+
+Prerequisites:
+Students must have completed CS201 Data Structures & Algorithms and MA202
+Probability & Statistics before enrolling. CO-REQUISITE: CS306 Linear Algebra.
+
+Topics Covered:
+- Week 1: Introduction to machine learning and Python tooling
+- Week 2: Linear regression and gradient descent
+- Week 3: Logistic regression and classification metrics
+- Week 4: Decision trees and random forests
+- Week 5: Support vector machines
+- Week 6: k-means clustering and hierarchical clustering
+- Week 7: Principal component analysis
+- Week 8: Neural networks and backpropagation
+- Week 9: Model evaluation, cross-validation and bias-variance tradeoff
+
+Learning Outcomes:
+On completion, students will be able to:
+LO1. Formulate a prediction problem as regression or classification.
+LO2. Implement gradient descent for linear models.
+LO3. Train and tune support vector machines and decision trees.
+LO4. Apply k-means clustering to segment datasets.
+LO5. Evaluate models using accuracy, precision, recall and ROC curves.

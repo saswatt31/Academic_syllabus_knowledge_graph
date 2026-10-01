@@ -1,0 +1,1157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="doc" attr.type="string"/>
+<key id="d1" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="CS201 Data Structures &amp; Algorithms">
+  <data key="d0">COURSE</data>
+</node>
+<node id="Prof. S. Menon">
+  <data key="d0">INSTRUCTOR</data>
+</node>
+<node id="4">
+  <data key="d0">CREDITS</data>
+</node>
+<node id="CS101 Introduction to Programming">
+  <data key="d0">PREREQUISITE</data>
+</node>
+<node id="Heaps and priority queues">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="minimum spanning trees">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Graph representations">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="binary search trees">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="dynamic programming">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Dynamic programming">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="complexity analysis">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Complexity analysis">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Sorting algorithms">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Stacks and queues">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="NP-completeness">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Shortest paths">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="greedy methods">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="linked lists">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Hash tables">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="hashing">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Arrays">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="BFS">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="DFS">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="LO1. Implement core data structures from scratch.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO2. Analyze time and space complexity of algorithms.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO3. Choose appropriate data structures for a given problem.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO4. Apply dynamic programming to optimization problems.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="CS301 Machine Learning">
+  <data key="d0">COURSE</data>
+</node>
+<node id="Dr. R. Iyer">
+  <data key="d0">INSTRUCTOR</data>
+</node>
+<node id="CS306 Linear Algebra">
+  <data key="d0">PREREQUISITE</data>
+</node>
+<node id="MA202 Probability &amp; Statistics">
+  <data key="d0">PREREQUISITE</data>
+</node>
+<node id="Principal component analysis">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="support vector machines">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Support vector machines">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="hierarchical clustering">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="bias-variance tradeoff">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="classification metrics">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Logistic regression">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="k-means clustering">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Linear regression">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="gradient descent">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="cross-validation">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Machine Learning">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="machine learning">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="neural networks">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Neural networks">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="backpropagation">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="decision trees">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Decision trees">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="random forests">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="unsupervised">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="supervised">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="clustering">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="LO1. Formulate a prediction problem as regression or classification.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO2. Implement gradient descent for linear models.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO3. Train and tune support vector machines and decision trees.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO4. Apply k-means clustering to segment datasets.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO5. Evaluate models using accuracy, precision, recall and ROC curves.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="CS302 Database Systems">
+  <data key="d0">COURSE</data>
+</node>
+<node id="Dr. A. Kulkarni">
+  <data key="d0">INSTRUCTOR</data>
+</node>
+<node id="3">
+  <data key="d0">CREDITS</data>
+</node>
+<node id="Entity-relationship modelling">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="functional dependencies">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Concurrency control">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="concurrency control">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="relational algebra">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Relational model">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="ACID properties">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="document stores">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="normalization">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Normalization">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="transactions">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Transactions">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="SQL queries">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="indexing">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Indexing">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="B-trees">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="NoSQL">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="LO1. Design normalized relational schemas from requirements.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO2. Write complex SQL queries with joins and aggregation.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO3. Explain transaction properties and concurrency control.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO4. Compare relational and NoSQL storage models.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="CS303 Operating Systems">
+  <data key="d0">COURSE</data>
+</node>
+<node id="Prof. M. Bhat">
+  <data key="d0">INSTRUCTOR</data>
+</node>
+<node id="Operating system concepts">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Process synchronization">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Processes and threads">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="distributed systems">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Memory management">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="page replacement">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="CPU scheduling">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="virtual memory">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Virtual memory">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="system calls">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="file systems">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="File systems">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="semaphores">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Deadlocks">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="LO1. Explain process states and scheduling policies.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO2. Solve synchronization problems using semaphores.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO3. Analyze page replacement algorithms.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO4. Describe file system implementation.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="CS304 Computer Networks">
+  <data key="d0">COURSE</data>
+</node>
+<node id="Dr. K. Das">
+  <data key="d0">INSTRUCTOR</data>
+</node>
+<node id="TCP congestion control">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="network architecture">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Network architecture">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="data link protocols">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="cryptography basics">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Routing algorithms">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="routing algorithms">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="distance vector">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Layered models">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="layered models">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="MAC protocols">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="IP addressing">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="subnet masks">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="subnetting">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="link state">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="firewalls">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Ethernet">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="TCP/IP">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="HTTP">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="UDP">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="DNS">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="OSI">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="LO1. Describe the OSI and TCP/IP layering.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO2. Compute subnet masks and address allocations.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO3. Compare routing algorithms.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO4. Explain TCP congestion control mechanisms.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="CS305 Web Technologies">
+  <data key="d0">COURSE</data>
+</node>
+<node id="Prof. N. Sharma">
+  <data key="d0">INSTRUCTOR</data>
+</node>
+<node id="Web performance">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="Authentication">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="CSS layout">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="JavaScript">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="REST API">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="sessions">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="flexbox">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="caching">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="React">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="HTML">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="grid">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="DOM">
+  <data key="d0">TOPIC</data>
+</node>
+<node id="LO1. Build responsive web pages with HTML and CSS.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO2. Program interactive frontends in JavaScript.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO3. Design and consume REST APIs.">
+  <data key="d0">OUTCOME</data>
+</node>
+<node id="LO4. Integrate a relational database into a web application.">
+  <data key="d0">OUTCOME</data>
+</node>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Prof. S. Menon" id="0">
+  <data key="d1">TAUGHT_BY</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="4" id="0">
+  <data key="d1">HAS_CREDITS</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Heaps and priority queues" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="minimum spanning trees" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Graph representations" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="binary search trees" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="dynamic programming" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="dynamic programming" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Dynamic programming" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="complexity analysis" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Complexity analysis" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Sorting algorithms" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Stacks and queues" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="NP-completeness" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Shortest paths" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="greedy methods" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="linked lists" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="linked lists" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Hash tables" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="hashing" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="hashing" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Arrays" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="Arrays" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="BFS" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="DFS" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="LO1. Implement core data structures from scratch." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="LO2. Analyze time and space complexity of algorithms." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="LO3. Choose appropriate data structures for a given problem." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="LO4. Apply dynamic programming to optimization problems." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="CS301 Machine Learning" id="0">
+  <data key="d1">PREREQUISITE_OF</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="CS303 Operating Systems" id="0">
+  <data key="d1">PREREQUISITE_OF</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS201 Data Structures &amp; Algorithms" target="CS305 Web Technologies" id="0">
+  <data key="d1">PREREQUISITE_OF</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS101 Introduction to Programming" target="CS201 Data Structures &amp; Algorithms" id="0">
+  <data key="d1">PREREQUISITE_OF</data>
+  <data key="d2">CS201_data_structures.txt</data>
+</edge>
+<edge source="CS101 Introduction to Programming" target="CS302 Database Systems" id="0">
+  <data key="d1">PREREQUISITE_OF</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="Dr. R. Iyer" id="0">
+  <data key="d1">TAUGHT_BY</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="4" id="0">
+  <data key="d1">HAS_CREDITS</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="Principal component analysis" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="support vector machines" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="support vector machines" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="Support vector machines" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="hierarchical clustering" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="bias-variance tradeoff" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="classification metrics" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="Logistic regression" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="k-means clustering" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="k-means clustering" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="Linear regression" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="gradient descent" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="gradient descent" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="cross-validation" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="Machine Learning" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="machine learning" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="machine learning" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="neural networks" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="Neural networks" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="backpropagation" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="decision trees" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="decision trees" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="Decision trees" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="random forests" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="unsupervised" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="supervised" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="clustering" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="LO1. Formulate a prediction problem as regression or classification." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="LO2. Implement gradient descent for linear models." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="LO3. Train and tune support vector machines and decision trees." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="LO4. Apply k-means clustering to segment datasets." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS301 Machine Learning" target="LO5. Evaluate models using accuracy, precision, recall and ROC curves." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS306 Linear Algebra" target="CS301 Machine Learning" id="0">
+  <data key="d1">CO_REQUISITE_OF</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="MA202 Probability &amp; Statistics" target="CS301 Machine Learning" id="0">
+  <data key="d1">PREREQUISITE_OF</data>
+  <data key="d2">CS301_machine_learning.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="Dr. A. Kulkarni" id="0">
+  <data key="d1">TAUGHT_BY</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="3" id="0">
+  <data key="d1">HAS_CREDITS</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="Entity-relationship modelling" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="Entity-relationship modelling" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="functional dependencies" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="Concurrency control" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="concurrency control" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="relational algebra" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="Relational model" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="ACID properties" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="document stores" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="normalization" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="Normalization" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="transactions" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="Transactions" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="SQL queries" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="SQL queries" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="indexing" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="Indexing" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="B-trees" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="NoSQL" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="NoSQL" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="NoSQL" id="2">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="LO1. Design normalized relational schemas from requirements." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="LO2. Write complex SQL queries with joins and aggregation." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="LO3. Explain transaction properties and concurrency control." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="LO4. Compare relational and NoSQL storage models." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS302_database_systems.txt</data>
+</edge>
+<edge source="CS302 Database Systems" target="CS305 Web Technologies" id="0">
+  <data key="d1">CO_REQUISITE_OF</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="Prof. M. Bhat" id="0">
+  <data key="d1">TAUGHT_BY</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="4" id="0">
+  <data key="d1">HAS_CREDITS</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="Operating system concepts" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="Process synchronization" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="Processes and threads" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="distributed systems" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="Memory management" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="page replacement" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="page replacement" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="CPU scheduling" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="CPU scheduling" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="virtual memory" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="Virtual memory" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="system calls" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="file systems" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="File systems" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="semaphores" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="semaphores" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="Deadlocks" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="LO1. Explain process states and scheduling policies." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="LO2. Solve synchronization problems using semaphores." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="LO3. Analyze page replacement algorithms." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="LO4. Describe file system implementation." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS303_operating_systems.txt</data>
+</edge>
+<edge source="CS303 Operating Systems" target="CS304 Computer Networks" id="0">
+  <data key="d1">PREREQUISITE_OF</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="Dr. K. Das" id="0">
+  <data key="d1">TAUGHT_BY</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="3" id="0">
+  <data key="d1">HAS_CREDITS</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="TCP congestion control" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="TCP congestion control" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="network architecture" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="Network architecture" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="data link protocols" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="cryptography basics" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="Routing algorithms" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="routing algorithms" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="distance vector" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="Layered models" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="layered models" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="MAC protocols" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="IP addressing" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="subnet masks" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="subnetting" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="link state" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="firewalls" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="Ethernet" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="TCP/IP" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="TCP/IP" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="TCP/IP" id="2">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="HTTP" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="UDP" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="DNS" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="OSI" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="OSI" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="LO1. Describe the OSI and TCP/IP layering." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="LO2. Compute subnet masks and address allocations." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="LO3. Compare routing algorithms." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS304 Computer Networks" target="LO4. Explain TCP congestion control mechanisms." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS304_computer_networks.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="Prof. N. Sharma" id="0">
+  <data key="d1">TAUGHT_BY</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="3" id="0">
+  <data key="d1">HAS_CREDITS</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="Web performance" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="Authentication" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="CSS layout" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="JavaScript" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="JavaScript" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="JavaScript" id="2">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="REST API" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="sessions" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="flexbox" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="caching" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="React" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="HTTP" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="HTML" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="HTML" id="1">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="HTML" id="2">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="grid" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="DOM" id="0">
+  <data key="d1">COVERS_TOPIC</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="LO1. Build responsive web pages with HTML and CSS." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="LO2. Program interactive frontends in JavaScript." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="LO3. Design and consume REST APIs." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+<edge source="CS305 Web Technologies" target="LO4. Integrate a relational database into a web application." id="0">
+  <data key="d1">HAS_OUTCOME</data>
+  <data key="d2">CS305_web_technologies.txt</data>
+</edge>
+</graph></graphml>

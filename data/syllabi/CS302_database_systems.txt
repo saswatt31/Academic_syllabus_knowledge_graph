@@ -1,0 +1,28 @@
+CS302 Database Systems — Course Syllabus
+
+Instructor: Dr. A. Kulkarni
+Credits: 3
+Semester: Spring 2027
+
+Course Description:
+Relational database design and usage. Entity-relationship modelling, SQL,
+normalization, transactions, indexing and an introduction to NoSQL stores.
+
+Prerequisites:
+Requires CS101 Introduction to Programming.
+
+Topics Covered:
+- Week 1: Entity-relationship modelling
+- Week 2: Relational model and relational algebra
+- Week 3: SQL queries, joins and aggregation
+- Week 4: Normalization and functional dependencies
+- Week 5: Indexing and B-trees
+- Week 6: Transactions and ACID properties
+- Week 7: Concurrency control and recovery
+- Week 8: Introduction to NoSQL and document stores
+
+Learning Outcomes:
+LO1. Design normalized relational schemas from requirements.
+LO2. Write complex SQL queries with joins and aggregation.
+LO3. Explain transaction properties and concurrency control.
+LO4. Compare relational and NoSQL storage models.

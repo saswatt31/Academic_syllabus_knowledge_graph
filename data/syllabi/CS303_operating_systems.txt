@@ -1,0 +1,29 @@
+CS303 Operating Systems — Course Syllabus
+
+Instructor: Prof. M. Bhat
+Credits: 4
+Semester: Spring 2027
+
+Course Description:
+Operating system concepts: processes, threads, CPU scheduling, memory
+management, virtual memory, file systems and concurrency.
+
+Prerequisites:
+CS201 Data Structures & Algorithms must be completed before this course.
+
+Topics Covered:
+- Week 1: OS structure and system calls
+- Week 2: Processes and threads
+- Week 3: CPU scheduling algorithms
+- Week 4: Process synchronization and semaphores
+- Week 5: Deadlocks
+- Week 6: Memory management and paging
+- Week 7: Virtual memory and page replacement
+- Week 8: File systems
+- Week 9: Introduction to distributed systems
+
+Learning Outcomes:
+LO1. Explain process states and scheduling policies.
+LO2. Solve synchronization problems using semaphores.
+LO3. Analyze page replacement algorithms.
+LO4. Describe file system implementation.

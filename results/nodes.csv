@@ -1,0 +1,149 @@
+node,type
+CS201 Data Structures & Algorithms,COURSE
+Prof. S. Menon,INSTRUCTOR
+4,CREDITS
+CS101 Introduction to Programming,PREREQUISITE
+Heaps and priority queues,TOPIC
+minimum spanning trees,TOPIC
+Graph representations,TOPIC
+binary search trees,TOPIC
+dynamic programming,TOPIC
+Dynamic programming,TOPIC
+complexity analysis,TOPIC
+Complexity analysis,TOPIC
+Sorting algorithms,TOPIC
+Stacks and queues,TOPIC
+NP-completeness,TOPIC
+Shortest paths,TOPIC
+greedy methods,TOPIC
+linked lists,TOPIC
+Hash tables,TOPIC
+hashing,TOPIC
+Arrays,TOPIC
+BFS,TOPIC
+DFS,TOPIC
+LO1. Implement core data structures from scratch.,OUTCOME
+LO2. Analyze time and space complexity of algorithms.,OUTCOME
+LO3. Choose appropriate data structures for a given problem.,OUTCOME
+LO4. Apply dynamic programming to optimization problems.,OUTCOME
+CS301 Machine Learning,COURSE
+Dr. R. Iyer,INSTRUCTOR
+CS306 Linear Algebra,PREREQUISITE
+MA202 Probability & Statistics,PREREQUISITE
+Principal component analysis,TOPIC
+support vector machines,TOPIC
+Support vector machines,TOPIC
+hierarchical clustering,TOPIC
+bias-variance tradeoff,TOPIC
+classification metrics,TOPIC
+Logistic regression,TOPIC
+k-means clustering,TOPIC
+Linear regression,TOPIC
+gradient descent,TOPIC
+cross-validation,TOPIC
+Machine Learning,TOPIC
+machine learning,TOPIC
+neural networks,TOPIC
+Neural networks,TOPIC
+backpropagation,TOPIC
+decision trees,TOPIC
+Decision trees,TOPIC
+random forests,TOPIC
+unsupervised,TOPIC
+supervised,TOPIC
+clustering,TOPIC
+LO1. Formulate a prediction problem as regression or classification.,OUTCOME
+LO2. Implement gradient descent for linear models.,OUTCOME
+LO3. Train and tune support vector machines and decision trees.,OUTCOME
+LO4. Apply k-means clustering to segment datasets.,OUTCOME
+"LO5. Evaluate models using accuracy, precision, recall and ROC curves.",OUTCOME
+CS302 Database Systems,COURSE
+Dr. A. Kulkarni,INSTRUCTOR
+3,CREDITS
+Entity-relationship modelling,TOPIC
+functional dependencies,TOPIC
+Concurrency control,TOPIC
+concurrency control,TOPIC
+relational algebra,TOPIC
+Relational model,TOPIC
+ACID properties,TOPIC
+document stores,TOPIC
+normalization,TOPIC
+Normalization,TOPIC
+transactions,TOPIC
+Transactions,TOPIC
+SQL queries,TOPIC
+indexing,TOPIC
+Indexing,TOPIC
+B-trees,TOPIC
+NoSQL,TOPIC
+LO1. Design normalized relational schemas from requirements.,OUTCOME
+LO2. Write complex SQL queries with joins and aggregation.,OUTCOME
+LO3. Explain transaction properties and concurrency control.,OUTCOME
+LO4. Compare relational and NoSQL storage models.,OUTCOME
+CS303 Operating Systems,COURSE
+Prof. M. Bhat,INSTRUCTOR
+Operating system concepts,TOPIC
+Process synchronization,TOPIC
+Processes and threads,TOPIC
+distributed systems,TOPIC
+Memory management,TOPIC
+page replacement,TOPIC
+CPU scheduling,TOPIC
+virtual memory,TOPIC
+Virtual memory,TOPIC
+system calls,TOPIC
+file systems,TOPIC
+File systems,TOPIC
+semaphores,TOPIC
+Deadlocks,TOPIC
+LO1. Explain process states and scheduling policies.,OUTCOME
+LO2. Solve synchronization problems using semaphores.,OUTCOME
+LO3. Analyze page replacement algorithms.,OUTCOME
+LO4. Describe file system implementation.,OUTCOME
+CS304 Computer Networks,COURSE
+Dr. K. Das,INSTRUCTOR
+TCP congestion control,TOPIC
+network architecture,TOPIC
+Network architecture,TOPIC
+data link protocols,TOPIC
+cryptography basics,TOPIC
+Routing algorithms,TOPIC
+routing algorithms,TOPIC
+distance vector,TOPIC
+Layered models,TOPIC
+layered models,TOPIC
+MAC protocols,TOPIC
+IP addressing,TOPIC
+subnet masks,TOPIC
+subnetting,TOPIC
+link state,TOPIC
+firewalls,TOPIC
+Ethernet,TOPIC
+TCP/IP,TOPIC
+HTTP,TOPIC
+UDP,TOPIC
+DNS,TOPIC
+OSI,TOPIC
+LO1. Describe the OSI and TCP/IP layering.,OUTCOME
+LO2. Compute subnet masks and address allocations.,OUTCOME
+LO3. Compare routing algorithms.,OUTCOME
+LO4. Explain TCP congestion control mechanisms.,OUTCOME
+CS305 Web Technologies,COURSE
+Prof. N. Sharma,INSTRUCTOR
+Web performance,TOPIC
+Authentication,TOPIC
+CSS layout,TOPIC
+JavaScript,TOPIC
+REST API,TOPIC
+sessions,TOPIC
+flexbox,TOPIC
+caching,TOPIC
+React,TOPIC
+HTML,TOPIC
+grid,TOPIC
+DOM,TOPIC
+LO1. Build responsive web pages with HTML and CSS.,OUTCOME
+LO2. Program interactive frontends in JavaScript.,OUTCOME
+LO3. Design and consume REST APIs.,OUTCOME
+LO4. Integrate a relational database into a web application.,OUTCOME

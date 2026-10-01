@@ -1,0 +1,29 @@
+CS305 Web Technologies — Course Syllabus
+
+Instructor: Prof. N. Sharma
+Credits: 3
+Semester: Spring 2027
+
+Course Description:
+Full-stack web development. HTML, CSS, JavaScript, REST APIs, databases in web
+applications, and modern frontend frameworks.
+
+Prerequisites:
+Students should have finished CS201 Data Structures & Algorithms. CO-REQUISITE:
+CS302 Database Systems.
+
+Topics Covered:
+- Week 1: HTML structure and semantics
+- Week 2: CSS layout: flexbox and grid
+- Week 3: JavaScript fundamentals and the DOM
+- Week 4: HTTP and REST API design
+- Week 5: Client-side frameworks (React basics)
+- Week 6: Authentication and sessions
+- Week 7: Connecting web apps to databases
+- Week 8: Web performance and caching
+
+Learning Outcomes:
+LO1. Build responsive web pages with HTML and CSS.
+LO2. Program interactive frontends in JavaScript.
+LO3. Design and consume REST APIs.
+LO4. Integrate a relational database into a web application.

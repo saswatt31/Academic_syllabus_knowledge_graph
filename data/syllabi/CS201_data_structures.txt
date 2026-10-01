@@ -1,0 +1,30 @@
+CS201 Data Structures & Algorithms — Course Syllabus
+
+Instructor: Prof. S. Menon
+Credits: 4
+Semester: Autumn 2026
+
+Course Description:
+Core data structures and algorithm design. Arrays, linked lists, trees, graphs,
+hashing, sorting, dynamic programming and complexity analysis in Python/C++.
+
+Prerequisites:
+CS101 Introduction to Programming is a prerequisite for this course.
+
+Topics Covered:
+- Week 1: Arrays and linked lists
+- Week 2: Stacks and queues
+- Week 3: Trees and binary search trees
+- Week 4: Heaps and priority queues
+- Week 5: Hash tables and hashing
+- Week 6: Graph representations and traversals (BFS, DFS)
+- Week 7: Shortest paths and minimum spanning trees
+- Week 8: Sorting algorithms
+- Week 9: Dynamic programming and greedy methods
+- Week 10: Complexity analysis and NP-completeness basics
+
+Learning Outcomes:
+LO1. Implement core data structures from scratch.
+LO2. Analyze time and space complexity of algorithms.
+LO3. Choose appropriate data structures for a given problem.
+LO4. Apply dynamic programming to optimization problems.
